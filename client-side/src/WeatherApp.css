@@ -1,0 +1,52 @@
+.MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 30px;
+    height: 100%;
+    /* margin: 60px 0px 0px 200px ; */
+}
+
+.container{
+    width:50%;
+    background:beige;
+    border-radius: 30px;
+    height: 80vh;
+    box-shadow: 2px 1px 20px 15px ghostwhite;
+    text-align: center;
+    margin: 60px 0px 100px ;
+
+}
+.header{
+/* background: #000; */
+height: 100px;
+}
+input{
+    height: 2rem;
+    width: 40%;
+    border-radius: 20px;
+    margin:60px 0px 0px 0px;
+}
+button{
+    cursor: pointer;
+    height: 2rem; 
+    width: 20%; 
+    border-radius: 20px;
+    margin:10px 0px 0px 0px;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 80px 0px 0px 0px;
+}
+.Textcontainer{
+    margin-top: 40px;
+    font-size: 2.5vw;
+}
+.display-flex,.Humidity-area,.Wind-area{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: .5rem;
+}
