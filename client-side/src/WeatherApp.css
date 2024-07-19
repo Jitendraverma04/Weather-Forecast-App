@@ -35,6 +35,9 @@ button{
     border-radius: 20px;
     margin:10px 0px 0px 0px;
 }
+.Imagecontainer{
+    margin: 2rem;
+}
 img{
     width: 100px;
     border-radius: 50%;
